@@ -52,7 +52,7 @@ class Kampus extends CI_Controller{
 			);
 			
 		$where = array(
-             'id' => $id
+            'id' => $id
 			);
 			
 		$this->m_data->update_data($where,$data,'mahasiswa');
